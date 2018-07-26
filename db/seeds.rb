@@ -34,13 +34,11 @@ end
       description:Faker::Superhero.descriptor,
       city_id: rand((City.first.id)..(City.last.id))
      	)
-  
+
   end
 
 20.times do
-
-
-  Gossip.create(
+  Gosssip.create(
     title: Faker::Cannabis.medical_use,
     content: Faker::Lorem.paragraph,
     user_id: rand((User.first.id)..(User.last.id))
