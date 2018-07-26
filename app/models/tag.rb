@@ -1,3 +1,3 @@
 class Tag < ApplicationRecord
-  has_many :gossips, index:true
+  has_many :gossips
 end
