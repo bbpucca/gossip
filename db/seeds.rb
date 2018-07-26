@@ -37,10 +37,16 @@ end
 
   end
 
-20.times do
-  Gosssip.create(
-    title: Faker::Cannabis.medical_use,
-    content: Faker::Lorem.paragraph,
-    user_id: rand((User.first.id)..(User.last.id))
-)
-end
+	20.times do
+	  Gosssip.create(
+	    title: Faker::Cannabis.medical_use,
+	    content: Faker::Lorem.paragraph,
+	    user_id: rand((User.first.id)..(User.last.id))
+	)
+	end
+
+	20.times do
+	  Tag.create(
+	    title: Faker::Cannabis.medical_use,
+	)
+	end
