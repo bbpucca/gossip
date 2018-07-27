@@ -1,3 +1,3 @@
 class Tag < ApplicationRecord
-  has_many :gossips, foreign_key: true
+  has_and_belongs_to_many :gossips
 end
