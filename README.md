@@ -1,5 +1,5 @@
 <h1>The Gossip project</h1>
-<p>Création d’une plateforme d’apprentissage en ligne. Il y a plein de cours. Chaque cours a un titre et une description. Enfin, chaque cours a plusieurs leçons, qui ont un titre et un body.</p>
+<p>Chez THP, on est tous fan de cette superbe série d'anticipation qu'est Gossip girl et on va créer une plateforme pour pouvoir commérer tous ensemble 😏. Sur ce super réseau social, un utilisateur va s'inscrire, renseigner son prénom et nom, son mail et son age, puis il précisera sa ville avec une recherche par code postal. Il aura ensuite toutes les fonctionnalités qui feront de cette appli une future licorne.</p>
 <p>Tu as besoin de :</p>
 <ul>
 <li><code>ActiveRecord</code></li>
